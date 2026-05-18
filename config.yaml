@@ -1,0 +1,229 @@
+people:
+  Lucas Ferreira:
+    score: 97
+    veteran: false
+    preferences: { OBC: 1, Payload: 4, TT&C: 2, ADCS: 3, EPS_TC: 5 }
+
+  Rafael Moura:
+    score: 101
+    veteran: false
+    preferences: { OBC: 2, Payload: 3, TT&C: 1, ADCS: 4, EPS_TC: 5 }
+
+  Beatriz Almeida:
+    score: 89
+    veteran: false
+    preferences: { OBC: 4, Payload: 1, TT&C: 3, ADCS: 2, EPS_TC: 5 }
+
+  Felipe Cardoso:
+    score: 93
+    veteran: false
+    preferences: { OBC: 1, Payload: 2, TT&C: 4, ADCS: 3, EPS_TC: 5 }
+
+  Mariana Costa:
+    score: 95
+    veteran: false
+    preferences: { OBC: 3, Payload: 1, TT&C: 2, ADCS: 4, EPS_TC: 5 }
+
+  Henrique Teixeira:
+    score: 87
+    veteran: false
+    preferences: { OBC: 2, Payload: 5, TT&C: 3, ADCS: 1, EPS_TC: 4 }
+
+  Gustavo Lima:
+    score: 104
+    veteran: false
+    preferences: { OBC: 1, Payload: 3, TT&C: 2, ADCS: 4, EPS_TC: 5 }
+
+  Camila Nogueira:
+    score: 90
+    veteran: false
+    preferences: { OBC: 5, Payload: 2, TT&C: 1, ADCS: 3, EPS_TC: 4 }
+
+  Pedro Azevedo:
+    score: 98
+    veteran: false
+    preferences: { OBC: 2, Payload: 1, TT&C: 3, ADCS: 4, EPS_TC: 5 }
+
+  Ana Clara Ribeiro:
+    score: 85
+    veteran: false
+    preferences: { OBC: 4, Payload: 2, TT&C: 3, ADCS: 1, EPS_TC: 5 }
+
+  Thiago Martins:
+    score: 96
+    veteran: false
+    preferences: { OBC: 1, Payload: 3, TT&C: 2, ADCS: 4, EPS_TC: 5 }
+
+  Eduardo Barros:
+    score: 92
+    veteran: false
+    preferences: { OBC: 3, Payload: 2, TT&C: 1, ADCS: 4, EPS_TC: 5 }
+
+  Juliana Freitas:
+    score: 88
+    veteran: false
+    preferences: { OBC: 5, Payload: 1, TT&C: 4, ADCS: 2, EPS_TC: 3 }
+
+  Vinicius Rocha:
+    score: 91
+    veteran: false
+    preferences: { OBC: 2, Payload: 4, TT&C: 1, ADCS: 3, EPS_TC: 5 }
+
+  Larissa Mendes:
+    score: 83
+    veteran: false
+    preferences: { OBC: 3, Payload: 2, TT&C: 5, ADCS: 1, EPS_TC: 4 }
+
+  Bruno Sampaio:
+    score: 100
+    veteran: false
+    preferences: { OBC: 1, Payload: 2, TT&C: 3, ADCS: 4, EPS_TC: 5 }
+
+  Natalia Borges:
+    score: 86
+    veteran: false
+    preferences: { OBC: 4, Payload: 1, TT&C: 2, ADCS: 5, EPS_TC: 3 }
+
+  Leonardo Prado:
+    score: 94
+    veteran: false
+    preferences: { OBC: 2, Payload: 3, TT&C: 1, ADCS: 4, EPS_TC: 5 }
+
+  Sofia Carvalho:
+    score: 90
+    veteran: false
+    preferences: { OBC: 5, Payload: 2, TT&C: 3, ADCS: 1, EPS_TC: 4 }
+
+  Matheus Silveira:
+    score: 99
+    veteran: false
+    preferences: { OBC: 1, Payload: 4, TT&C: 2, ADCS: 3, EPS_TC: 5 }
+
+  Fernanda Duarte:
+    score: 84
+    veteran: false
+    preferences: { OBC: 3, Payload: 1, TT&C: 4, ADCS: 2, EPS_TC: 5 }
+
+  Ricardo Farias:
+    score: 95
+    veteran: false
+    preferences: { OBC: 2, Payload: 5, TT&C: 1, ADCS: 3, EPS_TC: 4 }
+
+  Patricia Gomes:
+    score: 82
+    veteran: false
+    preferences: { OBC: 4, Payload: 2, TT&C: 3, ADCS: 1, EPS_TC: 5 }
+
+  André Cunha:
+    score: 102
+    veteran: false
+    preferences: { OBC: 1, Payload: 3, TT&C: 2, ADCS: 4, EPS_TC: 5 }
+
+  Carla Batista:
+    score: 87
+    veteran: false
+    preferences: { OBC: 5, Payload: 1, TT&C: 2, ADCS: 3, EPS_TC: 4 }
+
+  Diego Moreira:
+    score: 93
+    veteran: false
+    preferences: { OBC: 2, Payload: 4, TT&C: 1, ADCS: 3, EPS_TC: 5 }
+
+  Renata Vieira:
+    score: 89
+    veteran: false
+    preferences: { OBC: 3, Payload: 1, TT&C: 5, ADCS: 2, EPS_TC: 4 }
+
+  Marcelo Tavares:
+    score: 97
+    veteran: true
+    preferences: { OBC: 1, Payload: 3, TT&C: 2, ADCS: 4, EPS_TC: 5 }
+
+  Bianca Lopes:
+    score: 78
+    veteran: true
+    preferences: { OBC: 3, Payload: 1, TT&C: 4, ADCS: 2, EPS_TC: 5 }
+
+  Eduardo Nunes:
+    score: 72
+    veteran: true
+    preferences: { OBC: 5, Payload: 2, TT&C: 1, ADCS: 3, EPS_TC: 4 }
+
+  Carolina Reis:
+    score: 80
+    veteran: true
+    preferences: { OBC: 4, Payload: 1, TT&C: 3, ADCS: 2, EPS_TC: 5 }
+
+  João Pedro Lima:
+    score: 69
+    veteran: true
+    preferences: { OBC: 2, Payload: 4, TT&C: 1, ADCS: 3, EPS_TC: 5 }
+
+  Guilherme Castro:
+    score: 74
+    veteran: true
+    preferences: { OBC: 1, Payload: 5, TT&C: 2, ADCS: 3, EPS_TC: 4 }
+
+  Vanessa Mourão:
+    score: 77
+    veteran: true
+    preferences: { OBC: 3, Payload: 2, TT&C: 4, ADCS: 1, EPS_TC: 5 }
+
+team_sizes:
+  OBC: 7
+  Payload: 6
+  TT&C: 7
+  ADCS: 7
+  EPS_TC: 7
+
+optimization:
+  mode: lexicographic
+  stages:
+    - preference
+    - score_balance
+    - veteran_balance
+    - penalties
+
+weights:
+  preference:
+    1: 120
+    2: 70
+    3: 35
+    4: 10
+    5: 0
+
+  penalties:
+    rank_4: 40
+    rank_5: 120
+
+  high_performance_bonus:
+    OBC: 1.35
+    ADCS: 1.30
+    EPS_TC: 1.15
+
+constraints:
+  min_veterans_per_team: 1
+  max_time_seconds: 30
+
+metrics:
+  exclude_veterans_from_avg_score: false
+
+pareto:
+  enabled: true
+  points: 12
+  min_preference_ratio: 0.92
+  time_limit_per_point: 10
+
+  fairness_weights:
+    score_balance: 1
+    veteran_balance: 1
+    penalties: 1
+
+monte_carlo:
+  enabled: true
+  runs: 100
+  score_jitter: 6
+  preference_jitter: 1
+  preference_noise_probability: 0.08
+  time_limit_per_run: 6
+  seed: 42

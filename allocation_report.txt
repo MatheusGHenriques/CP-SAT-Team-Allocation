@@ -1,0 +1,306 @@
+ALLOCATION RESULT
+================================================================================
+Solver status: OPTIMAL
+Objective (primary stage): 301423.00
+
+Optimization stages:
+  preference       | max | value = 301423
+  score_balance    | min | value = 5404
+  veteran_balance  | min | value = 20
+  penalties        | min | value = 280
+
+OPTIMAL DISTRIBUTION (baseline)
+================================================================================
+[OBC]  size=7  veterans=1  score=695  avg=99.29
+  - Gustavo Lima       | Novice   | Score 104 | Rank: 1
+  - André Cunha        | Novice   | Score 102 | Rank: 1
+  - Bruno Sampaio      | Novice   | Score 100 | Rank: 1
+  - Matheus Silveira   | Novice   | Score 099 | Rank: 1
+  - Lucas Ferreira     | Novice   | Score 097 | Rank: 1
+  - Marcelo Tavares    | Veteran  | Score 097 | Rank: 1
+  - Thiago Martins     | Novice   | Score 096 | Rank: 1
+
+[Payload]  size=6  veterans=1  score=535  avg=89.17
+  - Pedro Azevedo      | Novice   | Score 098 | Rank: 1
+  - Mariana Costa      | Novice   | Score 095 | Rank: 1
+  - Beatriz Almeida    | Novice   | Score 089 | Rank: 1
+  - Renata Vieira      | Novice   | Score 089 | Rank: 1
+  - Fernanda Duarte    | Novice   | Score 084 | Rank: 1
+  - Carolina Reis      | Veteran  | Score 080 | Rank: 1
+
+[TT&C]  size=7  veterans=1  score=635  avg=90.71
+  - Rafael Moura       | Novice   | Score 101 | Rank: 1
+  - Ricardo Farias     | Novice   | Score 095 | Rank: 1
+  - Leonardo Prado     | Novice   | Score 094 | Rank: 1
+  - Diego Moreira      | Novice   | Score 093 | Rank: 1
+  - Eduardo Barros     | Novice   | Score 092 | Rank: 1
+  - Vinicius Rocha     | Novice   | Score 091 | Rank: 1
+  - João Pedro Lima    | Veteran  | Score 069 | Rank: 1
+
+[ADCS]  size=7  veterans=2  score=582  avg=83.14
+  - Sofia Carvalho     | Novice   | Score 090 | Rank: 1
+  - Henrique Teixeira  | Novice   | Score 087 | Rank: 1
+  - Ana Clara Ribeiro  | Novice   | Score 085 | Rank: 1
+  - Larissa Mendes     | Novice   | Score 083 | Rank: 1
+  - Patricia Gomes     | Novice   | Score 082 | Rank: 1
+  - Bianca Lopes       | Veteran  | Score 078 | Rank: 2
+  - Vanessa Mourão     | Veteran  | Score 077 | Rank: 1
+
+[EPS_TC]  size=7  veterans=2  score=590  avg=84.29
+  - Felipe Cardoso     | Novice   | Score 093 | Rank: 5
+  - Camila Nogueira    | Novice   | Score 090 | Rank: 4
+  - Juliana Freitas    | Novice   | Score 088 | Rank: 3
+  - Carla Batista      | Novice   | Score 087 | Rank: 4
+  - Natalia Borges     | Novice   | Score 086 | Rank: 3
+  - Guilherme Castro   | Veteran  | Score 074 | Rank: 4
+  - Eduardo Nunes      | Veteran  | Score 072 | Rank: 4
+
+FAIRNESS
+================================================================================
+1st choice: 26/34
+Top-2:    27/34
+Top-3:    29/34
+Jain index (scores): 0.9921
+Jain index (sizes):  0.9966
+Score range: 160
+Size range: 1
+Jain index (avg):  0.9959
+Avg range: 16
+
+Jain index ranges from 0 to 1 (1 = perfectly fair).
+Values above 0.95 indicate good balance across teams.
+
+PARETO FRONTIER
+================================================================================
+preference  fairness  score_balance  veteran_balance  penalties  floor
+ 1.     301423      5704           5404               20        280  301423
+ 2.     299557      4616           4316               20        280  299231
+ 3.     297076      3744           3364               20        360  297039
+ 4.     295114      2872           2412               20        440  294846
+ 5.     290689      2724           2344               20        360  290462
+ 6.     288316      2396           1936               20        440  288270
+ 7.     287546      2038           1578               20        440  288270
+ 8.     284697      1738           1238               20        480  283886
+ 9.     281760      1658           1238               20        400  281693
+10.     279526      1222            762               20        440  279501
+11.     277492       996            576               20        400  277309
+
+
+Knee point: best trade-off between preference and fairness.
+At this point, preference=295114, fairness=2872.
+Below is the team distribution for the knee point:
+
+[OBC]  size=7  veterans=2  score=656  avg=93.71
+  - Bruno Sampaio      | Novice   | Score 100 | Rank: 1
+  - Matheus Silveira   | Novice   | Score 099 | Rank: 1
+  - Lucas Ferreira     | Novice   | Score 097 | Rank: 1
+  - Marcelo Tavares    | Veteran  | Score 097 | Rank: 1
+  - Thiago Martins     | Novice   | Score 096 | Rank: 1
+  - Felipe Cardoso     | Novice   | Score 093 | Rank: 1
+  - Guilherme Castro   | Veteran  | Score 074 | Rank: 1
+
+[Payload]  size=6  veterans=1  score=533  avg=88.83
+  - Pedro Azevedo      | Novice   | Score 098 | Rank: 1
+  - Mariana Costa      | Novice   | Score 095 | Rank: 1
+  - Renata Vieira      | Novice   | Score 089 | Rank: 1
+  - Carla Batista      | Novice   | Score 087 | Rank: 1
+  - Fernanda Duarte    | Novice   | Score 084 | Rank: 1
+  - Carolina Reis      | Veteran  | Score 080 | Rank: 1
+
+[TT&C]  size=7  veterans=1  score=630  avg=90.00
+  - Rafael Moura       | Novice   | Score 101 | Rank: 1
+  - Leonardo Prado     | Novice   | Score 094 | Rank: 1
+  - Diego Moreira      | Novice   | Score 093 | Rank: 1
+  - Eduardo Barros     | Novice   | Score 092 | Rank: 1
+  - Vinicius Rocha     | Novice   | Score 091 | Rank: 1
+  - Camila Nogueira    | Novice   | Score 090 | Rank: 1
+  - João Pedro Lima    | Veteran  | Score 069 | Rank: 1
+
+[ADCS]  size=7  veterans=1  score=593  avg=84.71
+  - Sofia Carvalho     | Novice   | Score 090 | Rank: 1
+  - Beatriz Almeida    | Novice   | Score 089 | Rank: 2
+  - Henrique Teixeira  | Novice   | Score 087 | Rank: 1
+  - Ana Clara Ribeiro  | Novice   | Score 085 | Rank: 1
+  - Larissa Mendes     | Novice   | Score 083 | Rank: 1
+  - Patricia Gomes     | Novice   | Score 082 | Rank: 1
+  - Vanessa Mourão     | Veteran  | Score 077 | Rank: 1
+
+[EPS_TC]  size=7  veterans=2  score=625  avg=89.29
+  - Gustavo Lima       | Novice   | Score 104 | Rank: 5
+  - André Cunha        | Novice   | Score 102 | Rank: 5
+  - Ricardo Farias     | Novice   | Score 095 | Rank: 4
+  - Juliana Freitas    | Novice   | Score 088 | Rank: 3
+  - Natalia Borges     | Novice   | Score 086 | Rank: 3
+  - Bianca Lopes       | Veteran  | Score 078 | Rank: 5
+  - Eduardo Nunes      | Veteran  | Score 072 | Rank: 4
+
+ASSIGNMENT EXPLANATION
+================================================================================
+Lucas Ferreira     -> OBC        | 1st choice, novice, priority subsystem for high scores, high-score contributor, 1 veteran(s) on team
+Rafael Moura       -> TT&C       | 1st choice, novice, high-score contributor, 1 veteran(s) on team
+Beatriz Almeida    -> Payload    | 1st choice, novice, 1 veteran(s) on team
+Felipe Cardoso     -> EPS_TC     | 5th choice, novice, high-score contributor, 2 veteran(s) on team
+Mariana Costa      -> Payload    | 1st choice, novice, high-score contributor, 1 veteran(s) on team
+Henrique Teixeira  -> ADCS       | 1st choice, novice, priority subsystem for high scores, 2 veteran(s) on team
+Gustavo Lima       -> OBC        | 1st choice, novice, priority subsystem for high scores, high-score contributor, 1 veteran(s) on team
+Camila Nogueira    -> EPS_TC     | 4th choice, novice, high-score contributor, 2 veteran(s) on team
+Pedro Azevedo      -> Payload    | 1st choice, novice, high-score contributor, 1 veteran(s) on team
+Ana Clara Ribeiro  -> ADCS       | 1st choice, novice, priority subsystem for high scores, 2 veteran(s) on team
+Thiago Martins     -> OBC        | 1st choice, novice, priority subsystem for high scores, high-score contributor, 1 veteran(s) on team
+Eduardo Barros     -> TT&C       | 1st choice, novice, high-score contributor, 1 veteran(s) on team
+Juliana Freitas    -> EPS_TC     | 3rd choice, novice, 2 veteran(s) on team
+Vinicius Rocha     -> TT&C       | 1st choice, novice, high-score contributor, 1 veteran(s) on team
+Larissa Mendes     -> ADCS       | 1st choice, novice, priority subsystem for high scores, 2 veteran(s) on team
+Bruno Sampaio      -> OBC        | 1st choice, novice, priority subsystem for high scores, high-score contributor, 1 veteran(s) on team
+Natalia Borges     -> EPS_TC     | 3rd choice, novice, 2 veteran(s) on team
+Leonardo Prado     -> TT&C       | 1st choice, novice, high-score contributor, 1 veteran(s) on team
+Sofia Carvalho     -> ADCS       | 1st choice, novice, priority subsystem for high scores, high-score contributor, 2 veteran(s) on team
+Matheus Silveira   -> OBC        | 1st choice, novice, priority subsystem for high scores, high-score contributor, 1 veteran(s) on team
+Fernanda Duarte    -> Payload    | 1st choice, novice, 1 veteran(s) on team
+Ricardo Farias     -> TT&C       | 1st choice, novice, high-score contributor, 1 veteran(s) on team
+Patricia Gomes     -> ADCS       | 1st choice, novice, priority subsystem for high scores, 2 veteran(s) on team
+André Cunha        -> OBC        | 1st choice, novice, priority subsystem for high scores, high-score contributor, 1 veteran(s) on team
+Carla Batista      -> EPS_TC     | 4th choice, novice, 2 veteran(s) on team
+Diego Moreira      -> TT&C       | 1st choice, novice, high-score contributor, 1 veteran(s) on team
+Renata Vieira      -> Payload    | 1st choice, novice, 1 veteran(s) on team
+Marcelo Tavares    -> OBC        | 1st choice, veteran, priority subsystem for high scores, high-score contributor, 1 veteran(s) on team
+Bianca Lopes       -> ADCS       | 2nd choice, veteran, priority subsystem for high scores, 2 veteran(s) on team
+Eduardo Nunes      -> EPS_TC     | 4th choice, veteran, 2 veteran(s) on team
+Carolina Reis      -> Payload    | 1st choice, veteran, 1 veteran(s) on team
+João Pedro Lima    -> TT&C       | 1st choice, veteran, 1 veteran(s) on team
+Guilherme Castro   -> EPS_TC     | 4th choice, veteran, 2 veteran(s) on team
+Vanessa Mourão     -> ADCS       | 1st choice, veteran, priority subsystem for high scores, 2 veteran(s) on team
+
+MONTE CARLO ROBUSTNESS
+================================================================================
+Runs requested: 100
+Successful runs: 100
+Failed runs: 0
+Success rate: 100.0%
+Noise model: score ±6, preference ±1 @ p=0.08
+Mean objective: 301622.44 ± 2976.70
+Objective range: [292812.00, 308117.00]
+Mean changed assignments: 5.44 ± 2.00
+Mean stability: 0.8400 ± 0.0589
+Stability range: [0.7059, 1.0000]
+
+Interpretation: stability close to 1.0 means most people stay
+in the same team across perturbations.
+
+Most sensitive people (lowest baseline-team retention)
+--------------------------------------------------------------------------------
+Bianca Lopes       | base=ADCS       | retention=32.0% | mode=Payload    | entropy=0.972
+Felipe Cardoso     | base=EPS_TC     | retention=33.0% | mode=OBC        | entropy=0.610
+Carla Batista      | base=EPS_TC     | retention=40.0% | mode=Payload    | entropy=0.971
+Camila Nogueira    | base=EPS_TC     | retention=64.0% | mode=EPS_TC     | entropy=0.943
+João Pedro Lima    | base=TT&C       | retention=64.0% | mode=TT&C       | entropy=0.943
+
+Most robust people (highest baseline-team retention)
+--------------------------------------------------------------------------------
+Ana Clara Ribeiro  | base=ADCS       | retention=100.0% | mode=ADCS       | entropy=0.000
+Vanessa Mourão     | base=ADCS       | retention=100.0% | mode=ADCS       | entropy=0.000
+Larissa Mendes     | base=ADCS       | retention=99.0% | mode=ADCS       | entropy=0.081
+Patricia Gomes     | base=ADCS       | retention=99.0% | mode=ADCS       | entropy=0.081
+Rafael Moura       | base=TT&C       | retention=98.0% | mode=TT&C       | entropy=0.141
+
+Per-person retention table
+--------------------------------------------------------------------------------
+person               base team   retention  mode team   entropy
+Ana Clara Ribeiro    ADCS          100.0%  ADCS         0.000
+André Cunha          OBC            95.0%  OBC          0.286
+Beatriz Almeida      Payload        86.0%  Payload      0.401
+Bianca Lopes         ADCS           32.0%  Payload      0.972
+Bruno Sampaio        OBC            95.0%  OBC          0.203
+Camila Nogueira      EPS_TC         64.0%  EPS_TC       0.943
+Carla Batista        EPS_TC         40.0%  Payload      0.971
+Carolina Reis        Payload        68.0%  Payload      0.758
+Diego Moreira        TT&C           96.0%  TT&C         0.242
+Eduardo Barros       TT&C           95.0%  TT&C         0.203
+Eduardo Nunes        EPS_TC         65.0%  EPS_TC       0.934
+Felipe Cardoso       EPS_TC         33.0%  OBC          0.610
+Fernanda Duarte      Payload        68.0%  Payload      0.697
+Guilherme Castro     EPS_TC         96.0%  EPS_TC       0.173
+Gustavo Lima         OBC            93.0%  OBC          0.269
+Henrique Teixeira    ADCS           98.0%  ADCS         0.141
+João Pedro Lima      TT&C           64.0%  TT&C         0.943
+Juliana Freitas      EPS_TC         96.0%  EPS_TC       0.173
+Larissa Mendes       ADCS           99.0%  ADCS         0.081
+Leonardo Prado       TT&C           97.0%  TT&C         0.194
+Lucas Ferreira       OBC            77.0%  OBC          0.525
+Marcelo Tavares      OBC            97.0%  OBC          0.140
+Mariana Costa        Payload        96.0%  Payload      0.242
+Matheus Silveira     OBC            89.0%  OBC          0.310
+Natalia Borges       EPS_TC         98.0%  EPS_TC       0.141
+Patricia Gomes       ADCS           99.0%  ADCS         0.081
+Pedro Azevedo        Payload        97.0%  Payload      0.140
+Rafael Moura         TT&C           98.0%  TT&C         0.141
+Renata Vieira        Payload        72.0%  Payload      0.659
+Ricardo Farias       TT&C           77.0%  TT&C         0.778
+Sofia Carvalho       ADCS           97.0%  ADCS         0.194
+Thiago Martins       OBC            88.0%  OBC          0.383
+Vanessa Mourão       ADCS          100.0%  ADCS         0.000
+Vinicius Rocha       TT&C           91.0%  TT&C         0.436
+
+The distribution below shows where each person most often ends up
+across the Monte Carlo runs (mode assignment).
+Note: team sizes may differ from constraints since each
+person's mode is computed independently.
+
+REPRESENTATIVE DISTRIBUTION (Monte Carlo mode)
+================================================================================
+[OBC]  size=8  veterans=1  score=788  avg=98.50
+  - Gustavo Lima       | Novice   | Score 104 | Rank: 1
+  - André Cunha        | Novice   | Score 102 | Rank: 1
+  - Bruno Sampaio      | Novice   | Score 100 | Rank: 1
+  - Matheus Silveira   | Novice   | Score 099 | Rank: 1
+  - Lucas Ferreira     | Novice   | Score 097 | Rank: 1
+  - Marcelo Tavares    | Veteran  | Score 097 | Rank: 1
+  - Thiago Martins     | Novice   | Score 096 | Rank: 1
+  - Felipe Cardoso     | Novice   | Score 093 | Rank: 1
+
+[Payload]  size=8  veterans=2  score=700  avg=87.50
+  - Pedro Azevedo      | Novice   | Score 098 | Rank: 1
+  - Mariana Costa      | Novice   | Score 095 | Rank: 1
+  - Beatriz Almeida    | Novice   | Score 089 | Rank: 1
+  - Renata Vieira      | Novice   | Score 089 | Rank: 1
+  - Carla Batista      | Novice   | Score 087 | Rank: 1
+  - Fernanda Duarte    | Novice   | Score 084 | Rank: 1
+  - Carolina Reis      | Veteran  | Score 080 | Rank: 1
+  - Bianca Lopes       | Veteran  | Score 078 | Rank: 1
+
+[TT&C]  size=7  veterans=1  score=635  avg=90.71
+  - Rafael Moura       | Novice   | Score 101 | Rank: 1
+  - Ricardo Farias     | Novice   | Score 095 | Rank: 1
+  - Leonardo Prado     | Novice   | Score 094 | Rank: 1
+  - Diego Moreira      | Novice   | Score 093 | Rank: 1
+  - Eduardo Barros     | Novice   | Score 092 | Rank: 1
+  - Vinicius Rocha     | Novice   | Score 091 | Rank: 1
+  - João Pedro Lima    | Veteran  | Score 069 | Rank: 1
+
+[ADCS]  size=6  veterans=1  score=504  avg=84.00
+  - Sofia Carvalho     | Novice   | Score 090 | Rank: 1
+  - Henrique Teixeira  | Novice   | Score 087 | Rank: 1
+  - Ana Clara Ribeiro  | Novice   | Score 085 | Rank: 1
+  - Larissa Mendes     | Novice   | Score 083 | Rank: 1
+  - Patricia Gomes     | Novice   | Score 082 | Rank: 1
+  - Vanessa Mourão     | Veteran  | Score 077 | Rank: 1
+
+[EPS_TC]  size=5  veterans=2  score=410  avg=82.00
+  - Camila Nogueira    | Novice   | Score 090 | Rank: 4
+  - Juliana Freitas    | Novice   | Score 088 | Rank: 3
+  - Natalia Borges     | Novice   | Score 086 | Rank: 3
+  - Guilherme Castro   | Veteran  | Score 074 | Rank: 4
+  - Eduardo Nunes      | Veteran  | Score 072 | Rank: 4
+
+CURRENT CONFIGURATION
+================================================================================
+Sizes: {'OBC': 7, 'Payload': 6, 'TT&C': 7, 'ADCS': 7, 'EPS_TC': 7}
+Min veterans per team: 1
+Optimization mode: lexicographic
+Stages: preference -> score_balance -> veteran_balance -> penalties
+Preference weights: {1: 120, 2: 70, 3: 35, 4: 10, 5: 0}
+High score bonus: {'OBC': 1.35, 'ADCS': 1.3, 'EPS_TC': 1.15}
+Penalties: {'rank_4': 40, 'rank_5': 120}
+
+Pareto frontier points: 11
+Monte Carlo: 100 runs, 100.0% success rate
