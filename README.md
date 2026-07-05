@@ -1,4 +1,4 @@
-# CP-SAT Team Allocation Solver
+# CP-SAT Team Allocation
 
 > Constraint-based team allocation solver using Google OR-Tools CP-SAT, with lexicographic optimization, Pareto frontier analysis, and Monte Carlo robustness testing.
 
